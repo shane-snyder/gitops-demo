@@ -1,2 +1,0 @@
-NAME          HOST/PORT                                                    PATH   SERVICES      PORT       TERMINATION   WILDCARD
-hello-world   hello-world-hello-world.apps.shanearotest.eastus.aroapp.io          hello-world   5000-tcp                 None
