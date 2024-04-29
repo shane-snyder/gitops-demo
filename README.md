@@ -11,6 +11,7 @@
 ## Deploy app using oc new-app
 - oc new-project hello-world
 - oc new-app --name hello-world --image=\<quay-registry>/python-app/testapp:hello-world
+- oc expose svc/hello-world
 - Supporting docs
   - [oc new-app](https://docs.openshift.com/container-platform/4.14/cli_reference/openshift_cli/developer-cli-commands.html#oc-new-app)
   - [oc new-project](https://docs.openshift.com/container-platform/4.14/cli_reference/openshift_cli/developer-cli-commands.html#oc-new-project)
